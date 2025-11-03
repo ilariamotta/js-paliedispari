@@ -4,10 +4,10 @@
 
 
 // funzione che all'immissione di una parola controlla, scorrendo, se la parola è palindroma
-    //1.creazione funzione
-    //2. creazione ciclo for che controlla se la prima lettera è uguale all'ultima e se la seconda è uguale alla penultima
-    //3. SE sì, allora TRUE
-    //4. ALTRIMENTI FALSE
+//1.creazione funzione
+//2. creazione ciclo for che controlla se la prima lettera è uguale all'ultima e se la seconda è uguale alla penultima
+//3. SE sì, allora TRUE
+//4. ALTRIMENTI FALSE
 // nome funzione: isPali
 // param: parola (stringa)
 // return: boolean
@@ -15,13 +15,13 @@
 
 function isPali(parolaUtente) {
     let risultato = false;
-for (i = 0; i < parolaUtente.length; i++) {
-    if (parolaUtente.charAt(i) !== parolaUtente.charAt(parolaUtente.length-1)) {
-    
-    }
+    for (i = 0; i < parolaUtente.length; i++) {
+        if (parolaUtente.charAt(i) !== parolaUtente.charAt(parolaUtente.length - 1 -i)) {
+            return false
+        }
 
-}
-return risultato;
+    }
+    return true;
 }
 
 const parolaUtente = prompt("Scrivi una parola");

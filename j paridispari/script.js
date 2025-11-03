@@ -29,6 +29,8 @@ function whoWins(sceltaUtente, somma) {
 
 }
 
+
+
 sceltaUtente = prompt("Pari o dispari?").toLowerCase()
 numeroUtente = parseInt(prompt("Inserisci un numero da 1 a 5"))
 numeroPc = Math.floor(Math.random() * 5) + 1;
