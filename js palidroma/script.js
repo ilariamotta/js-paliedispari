@@ -11,3 +11,11 @@
 // nome funzione: isPali
 // param: parola (stringa)
 // return: boolean
+
+
+function isPali(parola) {
+    const parolaUtente = prompt("Scrivi una parola");
+    
+}
+
+
