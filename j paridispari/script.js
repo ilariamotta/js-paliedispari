@@ -6,3 +6,15 @@
 // Stabiliamo se la somma dei due numeri è pari o dispari (usando una funzione)
 // Dichiariamo chi ha vinto.
 
+// funzione che ci dice chi ha vinto il gioco
+    //1.creazione funzione
+    //2.chiediamo all'utente se pari o dispari
+    //3.generazione numero random sia per utente che computer
+    //4.somma dei due numeri usciti
+    //5.SE somma corrisponde alla scelta dell'utente ALLORA vince, ALTRIMENTI vince computer
+
+// nome funzione: whoWins
+// param: scelta utente e la somma
+// return: chi ha vinto (stringa)
+
+
