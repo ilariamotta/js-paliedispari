@@ -5,7 +5,7 @@
 
 // funzione che all'immissione di una parola controlla, scorrendo, se la parola è palindroma
     //1.creazione funzione
-    //2. creazione ciclo for che scorre le lettere e guarda se si possono invertire
+    //2. creazione ciclo for che controlla se la prima lettera è uguale all'ultima e se la seconda è uguale alla penultima
     //3. SE sì, allora TRUE
     //4. ALTRIMENTI FALSE
 // nome funzione: isPali
@@ -14,8 +14,16 @@
 
 
 function isPali(parola) {
-    const parolaUtente = prompt("Scrivi una parola");
+    console.log(parola);
     
+// for (i = 0; i > parolaUtente[i]; i++) {
+//     if (parolaUtente[0] === parolaUtente[0])
+
+// }
+
 }
+
+const parolaUtente = prompt("Scrivi una parola");
+isPali(parolaUtente)
 
 
