@@ -14,16 +14,18 @@
 
 
 function isPali(parola) {
-    console.log(parola);
     
-// for (i = 0; i > parolaUtente[i]; i++) {
-//     if (parolaUtente[0] === parolaUtente[0])
+for (i = 0; i < parolaUtente.length; i++) {
+    if (parolaUtente.charAt(0) === parolaUtente.charAt(parolaUtente.length-1)) {
+    
+    }
 
-// }
+}
 
 }
 
 const parolaUtente = prompt("Scrivi una parola");
+
 isPali(parolaUtente)
 
 
