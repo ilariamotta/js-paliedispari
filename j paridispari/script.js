@@ -19,8 +19,12 @@
 
 
 function whoWins (sceltaUtente, somma) {
-    
-    
+if (somma % 2 === 0 && sceltaUtente === "pari") {
+   return "Hai vinto!"
+
+
+}
+
 }
 
 sceltaUtente = prompt("Pari o dispari?").toLowerCase()
