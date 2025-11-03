@@ -18,3 +18,10 @@
 // return: chi ha vinto (stringa)
 
 
+function whoWins (sceltaUtente, somma) {
+    
+}
+
+sceltaUtente = prompt("Pari o dispari?").toLowerCase()
+
+// whoWins("pari", 8);
