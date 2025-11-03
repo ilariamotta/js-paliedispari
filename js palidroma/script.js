@@ -13,19 +13,20 @@
 // return: boolean
 
 
-function isPali(parola) {
-    
+function isPali(parolaUtente) {
+    let risultato = false;
 for (i = 0; i < parolaUtente.length; i++) {
-    if (parolaUtente.charAt(0) === parolaUtente.charAt(parolaUtente.length-1)) {
+    if (parolaUtente.charAt(i) !== parolaUtente.charAt(parolaUtente.length-1)) {
     
     }
 
 }
-
+return risultato;
 }
 
 const parolaUtente = prompt("Scrivi una parola");
 
-isPali(parolaUtente)
+const risultato = isPali(parolaUtente)
+console.log(risultato)
 
 
